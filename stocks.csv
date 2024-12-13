@@ -1,20 +1,7 @@
-company,price,change
-Microsoft Corporation (MSFT),404.06,(-0.61%)
-International Business Machines Corporation (IBM),187.64,(+0.41%)
-General Electric Company (GE),149.16,(+0.53%)
-Union Pacific Corporation (UNP),246.59,(-1.58%)
-Costco Wholesale Corporation (COST),723.99,(-0.07%)
-McDonald's Corporation (MCD),292.02,(+0.05%)
-Visa Inc. (V),278.56,(-0.86%)
-Walmart Inc. (WMT),170.36,(+0.63%)
-The Walt Disney Company (DIS),111.60,(-0.76%)
-3M Company (MMM),91.25,(-1.22%)
-Intel Corporation (INTC),43.51,(-1.23%)
-American Express Company (AXP),212.56,(+0.01%)
-Apple Inc. (AAPL),182.31,(-0.84%)
-The Boeing Company (BA),203.89,(-0.70%)
-"Cisco Systems, Inc. (CSCO)",48.44,(-1.26%)
-"The Goldman Sachs Group, Inc. (GS)",384.44,(-0.25%)
-JPMorgan Chase & Co. (JPM),179.03,(-0.47%)
-"Salesforce, Inc. (CRM)",289.72,(-0.76%)
-Verizon Communications Inc. (VZ),40.49,(-0.25%)
+Company Name,Price,Change
+Microsoft Corp,447.29,"$449.56$445.58 - $451.43$366.28 - $468.353.32T USD22.63M36.920.74%NASDAQASatya NadellaApr 4, 1975Redmond, WashingtonUnited Statesmicrosoft.com228,000"
+Apple Inc,247.68,"$247.96$246.24 - $249.29$164.08 - $250.803.74T USD44.13M40.720.40%NASDAQA-Tim CookTim CookApr 1, 1976Cupertino, CaliforniaUnited Statesapple.com164,000"
+Alphabet Inc Class A,191.36,"$191.96$190.12 - $192.73$130.67 - $195.612.35T USD29.27M25.390.42%NASDAQASundar PichaiOct 2, 2015Mountain View, CaliforniaUnited Statesabc.xyz181,269"
+Tesla Inc,433.58,"$418.10$415.71 - $434.35$138.80 - $434.351.35T USD96.48M118.77-NASDAQElon MuskJul 1, 2003tesla.com140,473"
+Amazon.com Inc,228.09,"$228.97$225.86 - $230.20$144.05 - $231.202.40T USD44.28M48.88-NASDAQBAndy JassyJul 5, 1994Seattle, WashingtonUnited Statesaboutamazon.com1,551,000"
+NVIDIA Corp,134.06,"$137.34$132.54 - $139.60$47.32 - $152.893.29T USD214.67M52.790.03%NASDAQBJensen HuangApr 5, 1993Santa Clara, CaliforniaUnited Statesnvidia.com29,600"
