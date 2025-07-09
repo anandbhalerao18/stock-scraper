@@ -1,46 +1,53 @@
-# 📈 Real-Time Stock Scraper & Graph Generator 🚀
+# 📈 stock-scraper 🚀
 
-Yo! Welcome to **Wall Street Vibes for Devs** – a Go-powered web scraping project that:
-- Scrapes real-time stock data 📊 from **Google Finance**
-- Saves it to a CSV 📁
-- Generates a super-clean bar chart 🖼️ of stock prices using **gonum/plot**
+[![Made with Go](https://img.shields.io/badge/Made%20with-Go-blue)](https://golang.org)
+[![Colly Web Scraper](https://img.shields.io/badge/Powered%20by-Colly-00bfff)](https://github.com/gocolly/colly)
+[![Graph by Gonum](https://img.shields.io/badge/Graph%20with-Gonum-44cc11)](https://gonum.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-> Just Go do it. Literally.
-
----
-
-## ⚡ Features
-
-🔥 **What it does like a boss**:
-
-- ✅ Scrapes stock price, company name, and price change
-- ✅ Outputs to `stocks.csv` in a readable tabular format
-- ✅ Generates a sexy bar chart as `stocks_graph.png`
-- ✅ Clean error logging & concurrent-safe scraping (mutex magic)
-- ✅ Extensible for more tickers anytime!
+> ⚡ A savage Go-powered scraper that literally goes to Google Finance, grabs real-time stock data like a Wall Street ninja, and plots a damn beautiful bar graph.  
+> 💾 Saves CSV too because spreadsheets = ✨corporate comfort✨.
 
 ---
 
-## 🔧 Tech Stack
+## 🧠 What It Does
 
-- [Go (Golang)](https://go.dev/) – the beast
-- [Colly](https://github.com/gocolly/colly) – scraping made elegant
-- [gonum/plot](https://github.com/gonum/plot) – for stunning visuals
-- 🧠 `sync.Mutex` – because concurrency isn't for the weak
+This Go project scrapes **live stock market data** from [Google Finance](https://www.google.com/finance) using the beast 🕷️ `Colly` and visualizes it using `gonum/plot`.
+
+It:
+- 🕸️ Visits stock pages on Google Finance
+- 🧠 Extracts **company name**, **stock price**, and **price change**
+- 📦 Dumps all data to `stocks.csv`
+- 📊 Generates a bar graph `stocks_graph.png` with prices
 
 ---
 
-## 📦 How to Run
+## 🔍 Tech Stack (aka What Makes This Sexy)
 
-### 🚨 Prerequisites
-- Go installed (`>=1.18`)
-- Internet connection (duh 😎)
-- Run inside terminal or VS Code or wherever you code like a hacker
+| Purpose         | Package                         |
+|----------------|----------------------------------|
+| Scraping       | [`github.com/gocolly/colly`](https://github.com/gocolly/colly) |
+| Graph plotting | [`gonum.org/v1/plot`](https://gonum.org/v1/plot) |
+| CSV Writing    | Built-in `encoding/csv` |
+| Concurrency    | `sync.Mutex` for safe Go-routines |
+| Sanity & Logs  | `log`, `fmt`, and `os` |
 
-### 🏃 Steps
+---
+
+## 📸 Screenshot
+
+> When you actually understand the stock market through pixels.
+
+![stocks_graph.png](stocks_graph.png)
+
+---
+
+## 🏗️ How to Run This Thing?
 
 ```bash
-git clone https://github.com/your-username/your-stock-scraper.git
-cd your-stock-scraper
-go run main.go
+# Clone the beast
+git clone https://github.com/anandbhalerao18/stock-scraper.git
+cd stock-scraper
 
+# Run the Go scraper
+go run main.go
